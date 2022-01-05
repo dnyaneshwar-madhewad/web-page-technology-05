@@ -1,0 +1,26 @@
+html,
+body {
+  margin: 0;
+}
+
+.parent {
+  display: flex;
+  background: red;
+  height: 100vh;
+}
+
+.child1 {
+  flex: 1;
+  background: silver;
+}
+
+.child2 {
+  flex: 1;
+  background: royalblue;
+}
+
+.centerify {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

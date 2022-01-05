@@ -1,0 +1,32 @@
+html,
+body {
+  margin: 0;
+}
+
+.parent {
+  height: 100vh;
+  background: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.child1 {
+  background: silver;
+}
+
+.child2 {
+  flex: 1;
+  background: royalblue;
+}
+
+.child3 {
+  flex: 1;
+  background: tomato;
+}
+
+.centerify {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

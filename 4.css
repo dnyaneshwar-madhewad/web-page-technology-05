@@ -1,0 +1,27 @@
+html,
+body {
+  margin: 0;
+}
+
+.parent {
+  display: flex;
+  height: 48px;
+  justify-content: space-between;
+  align-items: center;
+  background: silver;
+}
+
+.child1 {
+  flex: 1;
+}
+
+.child2 {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.space {
+  margin-left: 6px;
+  margin-right: 6px;
+}

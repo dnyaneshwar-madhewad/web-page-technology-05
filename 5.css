@@ -1,0 +1,48 @@
+html,
+body {
+  margin: 0;
+}
+
+.parent {
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+  background: silver;
+}
+
+.child1 {
+  flex: 1;
+}
+
+.child2 {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.space {
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.beautify-title {
+  font-size: 21px;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+.beautify-links {
+  padding: 4px;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.55);
+  color: rgba(255, 255, 255, 0.75);
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.beautify-links:hover {
+  background: rgba(0, 0, 0, 0.75);
+}
